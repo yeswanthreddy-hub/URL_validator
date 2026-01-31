@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Safety Checker</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+
+    <div class="box">
+        <h2>URL Safety Checker</h2>
+
+        <input type="text" id="userURL" placeholder="Enter URL here">
+
+        <div class="btn-group">
+            <button onclick="analyzeURL()">Check URL</button>
+            <button onclick="resetPage()" class="reset">Clear</button>
+        </div>
+
+        <p id="output"></p>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+</html>
